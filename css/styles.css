@@ -14,6 +14,19 @@ header {
     font-weight: 400;
 }
 
+.page-heading {
+    font-size: 50px; 
+    font-weight: bold; /* Set font weight to bold */
+    color: #ffA500; /* Set the color for the text */
+    margin-top: 5%;
+}
+
+.page-subtext{
+    font-size: 15px; 
+    color: #9d9d9d; /* Set the color for the text */
+    margin-top: 5%;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -43,11 +56,6 @@ main {
     align-items: center; /* Center vertically */
     justify-content: flex-start; /* Align to the left horizontally */
     padding: 20px;
-}
-
-h1 {
-    font-size: 36px; /* Adjust the font size as needed */
-    color: #333; /* Set the color for the name */
 }
 
 .content-container {
