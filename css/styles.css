@@ -2,6 +2,9 @@ body {
     margin: 0;
     font-family: 'Lato';
     font-weight: 400;
+    display: flex;
+    min-height: 100vh; /* Make sure the body takes at least the full height of the viewport */
+    flex-direction: column; /* Stack the child elements in a column */
 }
 
 header {
@@ -36,8 +39,10 @@ nav a:hover {
 }
 
 main {
+    flex: 1; /* Take the remaining width of the viewport */
+    align-items: center; /* Center vertically */
+    justify-content: flex-start; /* Align to the left horizontally */
     padding: 20px;
-    text-align: center;
 }
 
 h1 {
@@ -45,9 +50,47 @@ h1 {
     color: #333; /* Set the color for the name */
 }
 
+.content-container {
+    text-align:left;
+    margin-left: 15%;
+    margin-top: 20%;
+}
+
+.my-name-text {
+    font-size: 50px; /* Adjust the font size as needed */
+    font-weight: bold; /* Set font weight to bold */
+    color: #ffA500; /* Set the color for the text */
+    margin: 0; /* Remove default margin to prevent spacing issues */
+}
+
+
 .sub-caption {
     font-size: 18px; /* Adjust the font size for the sub-caption */
-    color: #555; /* Set the color for the sub-caption */
+    color: #f8bf54; /* Set the color for the sub-caption */
+    margin: 0.1%;
+
+}
+
+.center-lower {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-button {
+    padding: 15px 30px; 
+    font-size: 18px; 
+    background-color: #ffA500; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.center-button:hover {
+    background-color: #e59400; /* Slightly darker shade on hover */
 }
 
 /* Media query for smaller screens */

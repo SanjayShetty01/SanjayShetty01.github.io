@@ -8,21 +8,19 @@
     <title>Sanjaya J Shetty</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
+    <div id="header-container"></div>
     <main>
-        <h1>Sanjaya J. Shetty</h1>
-        <p class="sub-caption" id="typed-caption"></p>
+        <div class="content-container">
+            <p class="my-name-text">Sanjaya J. Shetty</p>
+            <p class="sub-caption" id="typed-caption"></p>
+        </div>
+
+        <div class="center-lower">
+            <button onclick="location.href='about.html'" class="center-button">About Me</button>
+        </div>
     </main>
 
     <script src="js/text_animation.js"></script> 
+    <script src="js/load_header.js"></script>
 </body>
 </html>
