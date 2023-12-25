@@ -1,3 +1,3 @@
 # SanjayShetty01.github.io
 
-[Link](https://sanjayshetty01.github.io/) to the site
+<a href="https://sanjayshetty01.github.io/" target="_blank">Link</strong></a> to the site
