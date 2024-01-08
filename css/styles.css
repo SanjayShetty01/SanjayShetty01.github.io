@@ -102,7 +102,7 @@ main {
 }
 
 /* Media query for smaller screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     nav {
         text-align: center;
     }
@@ -114,5 +114,24 @@ main {
     nav li {
         display: block;
         margin: 10px 0;
+    }
+}
+
+@media screen and (max-height: 600px) {
+
+    .content-container {
+        align-items: center;
+        margin-top: 0; /* Remove top margin */
+    }
+
+    .center-lower {
+        align-items: center;
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-height: 400px) {
+    .center-lower {
+        display: none;
     }
 }
