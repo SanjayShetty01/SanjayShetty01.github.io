@@ -130,7 +130,7 @@ main {
     }
 }
 
-@media screen and (max-height: 400px) {
+@media screen and (max-height: 410px) {
     .center-lower {
         display: none;
     }
