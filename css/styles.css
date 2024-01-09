@@ -61,7 +61,7 @@ main {
 .content-container {
     text-align:left;
     margin-left: 15%;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 .my-name-text {
@@ -121,7 +121,7 @@ main {
 
     .content-container {
         align-items: center;
-        margin-top: 0; /* Remove top margin */
+        margin-top: 5%; /* Remove top margin */
     }
 
     .center-lower {
