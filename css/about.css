@@ -3,5 +3,7 @@
 }
 
 .about-content{
-    text-align: center;
+    margin-right: 30%;
+    margin-left: 30%;
+    text-align: justify;
 }
