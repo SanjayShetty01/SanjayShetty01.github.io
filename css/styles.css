@@ -55,7 +55,6 @@ main {
     flex: 1; /* Take the remaining width of the viewport */
     align-items: center; /* Center vertically */
     justify-content: flex-start; /* Align to the left horizontally */
-    padding: 20px;
 }
 
 .content-container {
