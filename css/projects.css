@@ -30,7 +30,7 @@ section {
 
 section:nth-of-type(even) {
     color: white;
-    background: black;
+    background: #dfdfdf;
 }
 
 section:nth-of-type(odd) {
