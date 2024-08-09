@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const subCaptionElement = document.getElementById('typed-caption');
-    const roles = ["R Developer", "R Shiny Developer", "AWS Guy", "Scala Programmer, Rust Newbie"];
+    const roles = ["R Developer", "R Shiny Developer", "AWS Guy", "Scala Programmer, Rust Newbie!"];
     let roleIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
