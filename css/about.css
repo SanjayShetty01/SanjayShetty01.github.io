@@ -17,3 +17,34 @@ em strong {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.scroll-indicator-about {
+    position: relative;
+    right: 50%;
+    top: 40%; 
+    transform: translate(50%, 50%); 
+    z-index: 1000; 
+}
+
+.scroll-about {
+    width: 5vw; 
+    height: 5vw; 
+    max-width: 40px;
+    max-height: 40px; 
+    border: 2px solid #d1cece;
+    border-radius: 50%;
+    animation: down 1.5s infinite;
+    -webkit-animation: down 1.5s infinite;
+}
+
+.scroll-about::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    width: 12px;
+    height: 12px;
+    border-left: 2px solid #d1cece;
+    border-bottom: 2px solid #d1cece;
+    transform: rotate(-45deg);
+}

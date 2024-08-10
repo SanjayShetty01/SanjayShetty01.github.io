@@ -98,8 +98,9 @@ main {
 }
 
 .center-button:hover {
-    background-color: #e59400; /* Slightly darker shade on hover */
+    background-color: #e59400; 
 }
+
 
 /* Media query for smaller screens */
 @media screen and (max-width: 800px) {
