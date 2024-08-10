@@ -34,7 +34,7 @@ em strong {
     border: 2px solid #d1cece;
     border-radius: 50%;
     animation: down 1.5s infinite;
-    -webkit-animation: down 1.5s infinite;
+    -webkit-animation: down 5.5s infinite;
 }
 
 .scroll-about::before {
