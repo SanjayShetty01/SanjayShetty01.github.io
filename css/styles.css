@@ -102,27 +102,38 @@ main {
 }
 
 
-/* Media query for smaller screens */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     nav {
         text-align: center;
     }
 
     nav ul {
-        padding-top: 10px; /* Adjust spacing for smaller screens */
+        flex-direction: row; /* Keep items in a single row */
+        padding-top: 10px;
+        padding-left: 0;
+        list-style-type: none;
+        overflow-x: auto; /* Allow horizontal scrolling if content overflows */
+        white-space: nowrap; /* Prevent items from wrapping to the next line */
     }
 
     nav li {
-        display: block;
-        margin: 10px 0;
+        display: inline-block; /* Ensure items remain inline */
+        margin: 0 10px; /* Space out items */
+    }
+
+    nav a {
+        text-decoration: none;
+        color: inherit; /* Keep the text color the same as the parent */
+        display: inline-block;
+        padding: 10px 0; /* Add padding to make links easier to tap */
     }
 }
 
+/* Media query for smaller height screens */
 @media screen and (max-height: 600px) {
-
     .content-container {
         align-items: center;
-        margin-top: 5%; /* Remove top margin */
+        margin-top: 5%; /* Adjust top margin for smaller height screens */
     }
 
     .center-lower {
@@ -133,6 +144,6 @@ main {
 
 @media screen and (max-height: 410px) {
     .center-lower {
-        display: none;
+        display: none; /* Hide lower content on very small screens */
     }
 }
