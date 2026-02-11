@@ -2,7 +2,7 @@ import { Github, Linkedin, Mail, ArrowDown } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative px-6 pt-24">
+    <section id="home" className="min-h-screen flex items-center justify-center relative px-6 pt-16">
       <div className="max-w-3xl mx-auto text-center">
         <div className="w-32 h-32 sm:w-36 sm:h-36 mx-auto mb-8">
           <img
@@ -26,7 +26,7 @@ const HeroSection = () => {
           transforming complexity into clarity.
         </p>
 
-        <div className="flex items-center justify-center gap-4 mb-16">
+        <div className="flex items-center justify-center gap-4 mb-10">
           <a
             href="https://github.com/SanjayShetty01"
             target="_blank"
