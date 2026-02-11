@@ -17,7 +17,7 @@ const experience = [
   {
     role: "Senior Analyst - R Shiny",
     company: "DataZymes",
-    period: "Jan 2022 — Jun 2024",
+    period: "Jan 2023 — Jun 2024",
     description: "Built and scaled Pharma Analytics systems using R Shiny and Plumber APIs, significantly improving performance and efficiency. Led AWS integration with modern web stacks, introduced Git-based workflows, and implemented modular architecture standards for maintainable development.",
   },
 
