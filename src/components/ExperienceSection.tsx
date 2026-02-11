@@ -3,24 +3,45 @@ import { Button } from "@/components/ui/button";
 
 const experience = [
   {
-    role: "Data Analyst",
-    company: "Company Name",
-    period: "2023 — Present",
-    description: "Performing data analysis, building dashboards, and developing statistical models to drive business decisions.",
-  },
-  {
-    role: "R Developer",
-    company: "Freelance / Open Source",
-    period: "2022 — 2023",
+    role: "Senior Data Associate",
+    company: "Crisil",
+    period: "Oct 2025 — Present",
     description: "Built R packages and Shiny applications. Contributed to open-source data science tools and community projects.",
   },
+  {
+    role: "Consultant - R Shiny",
+    company: "EY India",
+    period: "Jul 2024 — Oct 2025",
+    description: "Developed and deployed credit risk systems using R Shiny, optimized R workflows, containerized applications with Docker, and integrated React-based frontends for scalable performance.",
+  },
+  {
+    role: "Senior Analyst - R Shiny",
+    company: "DataZymes",
+    period: "Jan 2022 — Jun 2024",
+    description: "Built and scaled Pharma Analytics systems using R Shiny and Plumber APIs, significantly improving performance and efficiency. Led AWS integration with modern web stacks, introduced Git-based workflows, and implemented modular architecture standards for maintainable development.",
+  },
+
+  {
+    role: "Data Analyst",
+    company: "Cointab",
+    period: "Aug 2022 — Dec 2022",
+    description: "Designed and implemented business logic for automated reconciliations using proprietary in-house systems, adapting solutions to client requirements and presenting outcomes to stakeholders.",
+  },
+
+  {
+    role: "Economic Research Intern",
+    company: "FKCCI, Bangalore",
+    period: "Aug 2022 — Dec 2022",
+    description: "Conducted economic research and authored reports on agricultural reforms (APMC), COVID-19's socioeconomic impact, and state budget analysis for Karnataka.",
+  },
+
 ];
 
 const education = [
   {
-    degree: "Bachelor's in Computer Science / Statistics",
-    school: "University Name",
-    period: "2019 — 2023",
+    degree: "B.E. in Chemical Engineering",
+    school: "B.M.S. College of Engineering, Bangalore",
+    period: "2016 — 2020",
   },
 ];
 
@@ -66,9 +87,12 @@ const ExperienceSection = () => {
           </div>
         </div>
 
-        <Button variant="outline" className="gap-2">
-          <Download size={14} /> Download Resume
-        </Button>
+        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+          <Button variant="outline" className="gap-2">
+            <Download size={14} /> Download Resume
+          </Button>
+        </a>
+
       </div>
     </section>
   );
