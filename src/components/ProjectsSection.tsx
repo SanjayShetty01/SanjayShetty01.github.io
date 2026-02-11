@@ -49,7 +49,7 @@ const projects = [
     tech: ["R", "Shiny", "ggplot2"],
     category: "Data Viz",
     demo: "https://github.com/SanjayShetty01/Data-Visualization/blob/main/README.md",
-    source: "https://github.com/SanjayShetty01",
+    source: "https://github.com/SanjayShetty01/Data-Visualization",
   },
   {
     title: "NIFTY 50 Open Price Forecasting",
