@@ -8,10 +8,33 @@ import { Send, Mail, Github, Linkedin } from "lucide-react";
 const ContactSection = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    toast.success("Message sent! I'll get back to you soon.");
-    setForm({ name: "", email: "", message: "" });
+
+    const formData = new FormData();
+    formData.append("name", form.name);
+    formData.append("email", form.email);
+    formData.append("message", form.message);
+    formData.append("_captcha", "false");
+
+    try {
+      const response = await fetch(
+        "https://formsubmit.co/ajax/shettysanjaya01@gmail.com",
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
+
+      if (response.ok) {
+        toast.success("Message sent! I'll get back to you soon.");
+        setForm({ name: "", email: "", message: "" });
+      } else {
+        toast.error("Something went wrong. Please try again.");
+      }
+    } catch (error) {
+      toast.error("Network error. Please try again.");
+    }
   };
 
   return (
@@ -52,7 +75,7 @@ const ContactSection = () => {
 
         <div className="flex items-center justify-center gap-4">
           <a
-            href="mailto:shettysanjaya@gmail.com"
+            href="mailto:shettysanjaya01@gmail.com"
             className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
             aria-label="Email"
           >
