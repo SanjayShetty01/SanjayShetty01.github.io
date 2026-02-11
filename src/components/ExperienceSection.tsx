@@ -6,7 +6,7 @@ const experience = [
     role: "Senior Data Associate",
     company: "Crisil",
     period: "Oct 2025 — Present",
-    description: "Built R packages and Shiny applications. Contributed to open-source data science tools and community projects.",
+    description: ".",
   },
   {
     role: "Consultant - R Shiny",
