@@ -2,31 +2,18 @@ export function calculateExperience(): string {
     const startDate = new Date("2022-08-16");
     const today = new Date();
 
-    let years = today.getFullYear() - startDate.getFullYear();
+    let totalMonths =
+        (today.getFullYear() - startDate.getFullYear()) * 12 +
+        (today.getMonth() - startDate.getMonth());
 
-    if (
-        today.getMonth() < startDate.getMonth() ||
-        (today.getMonth() === startDate.getMonth() &&
-            today.getDate() < startDate.getDate())
-    ) {
-        years--;
+    if (today.getDate() < startDate.getDate()) {
+        totalMonths--;
     }
 
-    let lastAnniversary = new Date(
-        today.getFullYear(),
-        startDate.getMonth(),
-        startDate.getDate()
-    );
+    const years = Math.floor(totalMonths / 12);
+    const remainingMonths = totalMonths % 12;
 
-    if (today < lastAnniversary) {
-        lastAnniversary.setFullYear(lastAnniversary.getFullYear() - 1);
-    }
-
-    const monthsSinceAnniversary =
-        (today.getFullYear() - lastAnniversary.getFullYear()) * 12 +
-        (today.getMonth() - lastAnniversary.getMonth());
-
-    return monthsSinceAnniversary >= 6
+    return remainingMonths >= 6
         ? `${years + 0.5}+`
         : `${years}+`;
 }
