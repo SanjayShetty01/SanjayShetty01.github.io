@@ -13,12 +13,13 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-lg sm:text-xl text-primary font-medium mb-6">
-          R Developer & Data Analyst
+          R & AWS Developer
         </p>
 
         <p className="text-muted-foreground max-w-lg mx-auto mb-10 leading-relaxed">
-          Building tools and insights with data. Passionate about statistical computing, 
-          open-source contributions, and turning complex data into clear stories.
+          Building scalable analytics and modelling systems for finance and risk.
+          Passionate about statistical computing, cloud infrastructure, and
+          transforming complexity into clarity.
         </p>
 
         <div className="flex items-center justify-center gap-4 mb-16">
@@ -32,7 +33,7 @@ const HeroSection = () => {
             <Github size={18} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/sanjaya-j-shetty/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
