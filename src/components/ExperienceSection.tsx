@@ -31,7 +31,7 @@ const experience = [
   {
     role: "Economic Research Intern",
     company: "FKCCI, Bangalore",
-    period: "Aug 2022 — Dec 2022",
+    period: "Feb 2020 — May 2020",
     description: "Conducted economic research and authored reports on agricultural reforms (APMC), COVID-19's socioeconomic impact, and state budget analysis for Karnataka.",
   },
 
