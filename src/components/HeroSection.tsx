@@ -5,7 +5,7 @@ const HeroSection = () => {
     <section id="home" className="min-h-screen flex items-center justify-center relative px-6">
       <div className="max-w-3xl mx-auto text-center">
         <div className="w-28 h-28 rounded-full bg-muted mx-auto mb-8 flex items-center justify-center text-3xl font-bold text-primary" style={{ fontFamily: "'DM Serif Display', serif" }}>
-          SJS
+          SS
         </div>
 
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-foreground mb-4 leading-tight">
