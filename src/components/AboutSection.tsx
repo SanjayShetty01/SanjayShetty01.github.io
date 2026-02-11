@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Calendar, CircleCheck } from "lucide-react";
+import { calculateExperience } from "@/utils/calculateExperience";
 
 const skills = [
   "R", "AWS", "SQL", "Python", "Rust", "Shiny", "Data Analysis",
@@ -34,7 +35,7 @@ const AboutSection = () => {
             <MapPin size={14} className="text-primary" /> India
           </span>
           <span className="flex items-center gap-2">
-            <Calendar size={14} className="text-primary" /> 3+ Years Experience
+            <Calendar size={14} className="text-primary" /> {calculateExperience()} Years Experience
           </span>
           <span className="flex items-center gap-2">
             <CircleCheck size={14} className="text-primary" /> Open to Opportunities
