@@ -1,5 +1,6 @@
-# SanjayShetty01.github.io
+# Sanjaya J. Shetty – Personal Website
 
-#### Work in Progress
+This repository contains the source code for my personal website, showcasing my work in analytics, risk modelling, and cloud-based application development.
 
-<a href="https://sanjayshetty01.github.io/" target="_blank">Link</strong></a> to the site
+🔗 **Live Site**  
+https://SanjayShetty01.github.io/
