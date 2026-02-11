@@ -6,7 +6,7 @@ const Footer = () => (
       </span>
 
       <span className="flex items-center gap-1">
-        Built with care, with help from
+        Built with care, Scaffolded by
         <a
           href="https://loveable.dev"
           target="_blank"
@@ -18,7 +18,7 @@ const Footer = () => (
             alt="Loveable Logo"
             className="h-3 w-auto"
           />
-          Loveable
+          Loveable AI.
         </a>
       </span>
     </div>
