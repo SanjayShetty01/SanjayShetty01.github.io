@@ -48,7 +48,7 @@ const projects = [
     description: "An R project focused on strengthening data visualization skills using ggplot2, featuring a suite of exploratory plots and visual approaches to communicate complex data effectively.",
     tech: ["R", "Shiny", "ggplot2"],
     category: "Data Viz",
-    demo: "https://github.com/SanjayShetty01/Data-Visualization?tab=readme-ov-file",
+    demo: "https://github.com/SanjayShetty01/Data-Visualization/blob/main/README.md",
     source: "https://github.com/SanjayShetty01",
   },
   {
