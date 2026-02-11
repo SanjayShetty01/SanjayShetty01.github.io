@@ -6,7 +6,7 @@ const experience = [
     role: "Senior Data Associate",
     company: "Crisil",
     period: "Oct 2025 — Present",
-    description: ".",
+    description: "Training & Induction at the moment",
   },
   {
     role: "Consultant - R Shiny",
