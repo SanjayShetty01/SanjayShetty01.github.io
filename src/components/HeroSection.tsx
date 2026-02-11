@@ -2,10 +2,14 @@ import { Github, Linkedin, Mail, ArrowDown } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative px-6">
+    <section id="home" className="min-h-screen flex items-center justify-center relative px-6 pt-24">
       <div className="max-w-3xl mx-auto text-center">
-        <div className="w-28 h-28 rounded-full bg-muted mx-auto mb-8 flex items-center justify-center text-3xl font-bold text-primary" style={{ fontFamily: "'DM Serif Display', serif" }}>
-          SS
+        <div className="w-32 h-32 sm:w-36 sm:h-36 mx-auto mb-8">
+          <img
+            src="/profile.jpg"
+            alt="Sanjaya J. Shetty"
+            className="w-full h-full object-cover rounded-full border border-border shadow-md"
+          />
         </div>
 
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-foreground mb-4 leading-tight">
