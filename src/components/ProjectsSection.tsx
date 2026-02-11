@@ -57,7 +57,7 @@ const projects = [
       "An integrated forecasting project that leverages news sentiment, historical index data, and machine learning models to estimate next-day opening prices for the NIFTY 50 benchmark.",
     tech: ["Python", "ML", "Sentiment Analysis", "Time Series", "AWS"],
     category: "Stats & ML",
-    demo: "#",
+    demo: "https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#introduction",
     source: "https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50",
   },
   {
