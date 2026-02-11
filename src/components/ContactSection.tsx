@@ -52,7 +52,7 @@ const ContactSection = () => {
 
         <div className="flex items-center justify-center gap-4">
           <a
-            href="mailto:sanjay@example.com"
+            href="mailto:shettysanjaya@gmail.com"
             className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
             aria-label="Email"
           >
@@ -68,7 +68,7 @@ const ContactSection = () => {
             <Github size={18} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/sanjaya-j-shetty/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
