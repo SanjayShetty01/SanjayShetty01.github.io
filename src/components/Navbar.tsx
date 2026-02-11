@@ -21,13 +21,12 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-background/90 backdrop-blur-md shadow-sm" : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-background/90 backdrop-blur-md shadow-sm" : "bg-transparent"
+        }`}
     >
       <nav className="max-w-5xl mx-auto flex items-center justify-between px-6 py-4">
         <a href="#home" className="font-serif text-xl font-bold text-foreground tracking-tight" style={{ fontFamily: "'DM Serif Display', serif" }}>
-          SJS<span className="text-primary">.</span>
+          SS<span className="text-primary">.</span>
         </a>
 
         {/* Desktop */}

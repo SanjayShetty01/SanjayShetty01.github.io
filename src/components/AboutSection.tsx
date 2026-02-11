@@ -2,8 +2,8 @@ import { Badge } from "@/components/ui/badge";
 import { MapPin, Calendar, CircleCheck } from "lucide-react";
 
 const skills = [
-  "R", "Python", "SQL", "Data Analysis", "Statistical Modeling",
-  "ggplot2", "Shiny", "Tidyverse", "Machine Learning", "Git",
+  "R", "AWS", "SQL", "Python", "Rust", "Shiny", "Data Analysis",
+  "Credit Risk", "Machine Learning", "Git",
 ];
 
 const AboutSection = () => {
@@ -14,10 +14,11 @@ const AboutSection = () => {
         <div className="w-12 h-1 bg-primary rounded mb-8" />
 
         <p className="text-muted-foreground leading-relaxed mb-8">
-          I'm a data-driven developer who loves working with R and statistical tools 
-          to solve real-world problems. With experience in data analysis, visualization, 
-          and building interactive applications, I enjoy turning raw data into actionable 
-          insights. I'm always exploring new techniques and contributing to the open-source community.
+          I build analytics and modelling applications using R and R Shiny,
+          mainly in credit risk, climate risk, regulatory stress testing, and
+          pharma analytics. I work on AWS-based deployments and integrate applications
+          using React, Flask, and R Plumber, using Docker and PostgreSQL in my workflow.
+          Currently exploring Rust to expand my development skills.
         </p>
 
         <div className="flex flex-wrap gap-3 mb-10">
@@ -33,7 +34,7 @@ const AboutSection = () => {
             <MapPin size={14} className="text-primary" /> India
           </span>
           <span className="flex items-center gap-2">
-            <Calendar size={14} className="text-primary" /> 2+ Years Experience
+            <Calendar size={14} className="text-primary" /> 3+ Years Experience
           </span>
           <span className="flex items-center gap-2">
             <CircleCheck size={14} className="text-primary" /> Open to Opportunities
