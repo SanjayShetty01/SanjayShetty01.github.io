@@ -14,6 +14,16 @@ const projects = [
   },
 
   {
+    title: "Lunexa — Arbitrage & Hedge Calculator",
+    description:
+      "Lunexa is a precision-focused betting calculator designed to help you identify and manage risk-free opportunities using real market odds.",
+    tech: ["R", "R Shiny"],
+    category: "Tools",
+    demo: "https://sanjayshetty01.shinyapps.io/Lunexa/",
+    source: "https://github.com/SanjayShetty01/Lunexa/",
+  },
+
+  {
     title: "Betting Odds Converter",
     description:
       "A Rust-based CLI tool that converts different betting odds formats into implied probabilities, providing actionable insights to help bettors make informed decisions based on market odds.",
