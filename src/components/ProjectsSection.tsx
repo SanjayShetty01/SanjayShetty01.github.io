@@ -44,13 +44,13 @@ const projects = [
   },
 
   {
-    title: "ZooShopInsights – Discord Game Insights Dashboard",
+    title: "Specie – Discord Game Insights Dashboard",
     description:
       "An interactive R Shiny application providing income analysis and performance insights for the Evolution Farm Discord game, enabling users to simulate earnings and optimize in-game strategies.",
     tech: ["R", "Shiny", "Github Actions"],
     category: "Data Viz",
-    demo: "https://sanjayshetty01.shinyapps.io/ZooShopInsights/",
-    source: "https://github.com/SanjayShetty01/ZooShopInsights",
+    demo: "https://sanjayshetty01.shinyapps.io/Specie/",
+    source: "https://github.com/SanjayShetty01/Specie",
   },
 
   {
