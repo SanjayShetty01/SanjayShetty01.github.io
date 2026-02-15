@@ -24,13 +24,13 @@ const projects = [
   },
 
   {
-    title: "Betting Odds Converter",
+    title: "implied",
     description:
       "A Rust-based CLI tool that converts different betting odds formats into implied probabilities, providing actionable insights to help bettors make informed decisions based on market odds.",
     tech: ["Rust", "CLI"],
     category: "Tools",
-    demo: "https://github.com/SanjayShetty01/betting-odds-converter/releases",
-    source: "https://github.com/SanjayShetty01/betting-odds-converter",
+    demo: "https://github.com/SanjayShetty01/implied/releases",
+    source: "https://github.com/SanjayShetty01/implied",
   },
 
   {
