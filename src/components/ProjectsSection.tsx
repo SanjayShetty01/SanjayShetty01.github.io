@@ -44,6 +44,16 @@ const projects = [
   },
 
   {
+    title: "Stint – F1 Ranking Dashboard",
+    description:
+      "An interactive R Shiny application providing F1 driver and constructor rankings and performance insights.",
+    tech: ["R", "Shiny", "Github Actions", "SQLite", "Prompt-Engineered"],
+    category: "Data Viz",
+    demo: "https://sanjayshetty01.shinyapps.io/Stint/",
+    source: "https://github.com/SanjayShetty01/Stint",
+  },
+
+  {
     title: "ZooShopInsights – Discord Game Insights Dashboard",
     description:
       "An interactive R Shiny application providing income analysis and performance insights for the Evolution Farm Discord game, enabling users to simulate earnings and optimize in-game strategies.",
@@ -142,7 +152,14 @@ const ProjectsSection = () => {
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tech.map((t) => (
-                  <Badge key={t} variant="secondary" className="text-xs">
+                  <Badge
+                    key={t}
+                    variant="secondary"
+                    className={`text-xs ${t === "Prompt-Engineered"
+                      ? "border-orange-400 bg-orange-50 text-orange-600 dark:bg-orange-950/30 dark:text-orange-400 dark:border-orange-500"
+                      : ""
+                      }`}
+                  >
                     {t}
                   </Badge>
                 ))}
