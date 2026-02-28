@@ -1,0 +1,109 @@
+# Sanjaya J. Shetty
+
+> R & AWS Developer — Building scalable analytics and modelling systems for finance and risk.
+
+## About
+
+I build analytics and modelling applications using R and R Shiny, mainly in credit risk, climate risk, regulatory stress testing, and pharma analytics. I work on AWS-based deployments and integrate applications using React, Flask, and R Plumber, using Docker and PostgreSQL in my workflow. Currently exploring Rust to expand my development skills.
+
+- Location: India
+- Open to opportunities
+- Resume: https://SanjayShetty01.github.io/resume.pdf
+
+## Skills
+
+R, AWS, SQL, Python, Rust, Shiny, Data Analysis, Credit Risk, Machine Learning, Git
+
+## Experience
+
+### Senior Data Associate — Crisil (Oct 2025 – Present)
+Training & Induction at the moment.
+
+### Consultant, R Shiny — EY India (Jul 2024 – Oct 2025)
+Developed and deployed credit risk systems using R Shiny, optimized R workflows, containerized applications with Docker, and integrated React-based frontends for scalable performance.
+
+### Senior Analyst, R Shiny — DataZymes (Jan 2023 – Jun 2024)
+Built and scaled Pharma Analytics systems using R Shiny and Plumber APIs, significantly improving performance and efficiency. Led AWS integration with modern web stacks, introduced Git-based workflows, and implemented modular architecture standards.
+
+### Data Analyst — Cointab (Aug 2022 – Dec 2022)
+Designed and implemented business logic for automated reconciliations using proprietary in-house systems, adapting solutions to client requirements.
+
+### Economic Research Intern — FKCCI, Bangalore (Feb 2020 – May 2020)
+Conducted economic research and authored reports on agricultural reforms (APMC), COVID-19's socioeconomic impact, and state budget analysis for Karnataka.
+
+## Education
+
+B.E. in Chemical Engineering — B.M.S. College of Engineering, Bangalore (2016 – 2020)
+
+## Projects
+
+### RCognito — AWS Cognito Wrapper for R
+An R package that simplifies integration with AWS Cognito services, enabling secure authentication and user pool management directly from R applications.
+- CRAN: https://cran.r-project.org/web/packages/RCognito/index.html
+- Source: https://github.com/SanjayShetty01/RCognito
+- Tech: R, AWS, R Package
+
+### Lunexa — Arbitrage & Hedge Calculator
+A precision-focused betting calculator designed to help identify and manage risk-free opportunities using real market odds.
+- Demo: https://sanjayshetty01.shinyapps.io/Lunexa/
+- Source: https://github.com/SanjayShetty01/Lunexa/
+- Tech: R, R Shiny
+
+### implied
+A Rust-based CLI tool that converts different betting odds formats into implied probabilities.
+- Releases: https://github.com/SanjayShetty01/implied/releases
+- Source: https://github.com/SanjayShetty01/implied
+- Tech: Rust, CLI
+
+### capture_text — Screen Text Extraction Tool
+A cross-platform command-line utility for extracting text from anywhere on the screen using OCR.
+- Releases: https://github.com/SanjayShetty01/capture_text/releases/tag/v0.1.1
+- Source: https://github.com/SanjayShetty01/capture_text
+- Tech: Rust, Screen OCR, CLI
+
+### Stint — F1 Ranking Dashboard
+An interactive R Shiny application providing F1 driver and constructor rankings and performance insights.
+- Demo: https://sanjayshetty01.shinyapps.io/Stint/
+- Source: https://github.com/SanjayShetty01/Stint
+- Tech: R, Shiny, GitHub Actions, SQLite, Prompt-Engineered
+
+### Specie — Discord Game Insights Dashboard
+An interactive R Shiny application providing income analysis and performance insights for the Evolution Farm Discord game.
+- Demo: https://sanjayshetty01.shinyapps.io/Specie/
+- Source: https://github.com/SanjayShetty01/Specie
+- Tech: R, Shiny, GitHub Actions
+
+### Data Visualization Repo
+An R project focused on strengthening data visualization skills using ggplot2.
+- Demo: https://github.com/SanjayShetty01/Data-Visualization/blob/main/README.md
+- Source: https://github.com/SanjayShetty01/Data-Visualization
+- Tech: R, Shiny, ggplot2
+
+### NIFTY 50 Open Price Forecasting
+An integrated forecasting project leveraging news sentiment, historical data, and ML models to estimate next-day NIFTY 50 opening prices.
+- Demo: https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#introduction
+- Source: https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50
+- Tech: Python, ML, Sentiment Analysis, Time Series, AWS
+
+### Implementing India VIX in R
+A full implementation of the India VIX calculation methodology from scratch in R.
+- Demo: https://gist.github.com/SanjayShetty01/01e700b6c1fadf0e76c5b7361c14d7d2
+- Tech: R, Options Data, Volatility Modeling, Financial Engineering
+
+### Payoff vs Probability — Monte Carlo Simulation
+A statistical simulation exploring why payoff structure matters more than raw probability in decision-making.
+- Demo: https://gist.github.com/SanjayShetty01/927f0a0cf0bfe479ebf1f28240cc6331
+- Tech: R, Monte Carlo Simulation, Probability, Statistics
+
+### Intraday VWAP Strategy — Bank Nifty Backtest
+A rule-based intraday trading strategy backtested on Bank Nifty using VWAP breakout signals.
+- Demo: https://colab.research.google.com/gist/SanjayShetty01/85c377f5b2236713dbed111e11cee5d5/rg-enterprises-workbook.ipynb
+- Source: https://gist.github.com/SanjayShetty01/85c377f5b2236713dbed111e11cee5d5
+- Tech: Python, Quant Strategy, Backtesting, Market Data
+
+## Links
+
+- Website: https://SanjayShetty01.github.io
+- GitHub: https://github.com/SanjayShetty01
+- LinkedIn: https://www.linkedin.com/in/sanjaya-j-shetty/
+- Email: shettysanjaya01@gmail.com
