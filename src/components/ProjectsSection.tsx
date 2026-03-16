@@ -107,6 +107,15 @@ const projects = [
     category: "Stats & ML",
     demo: "https://colab.research.google.com/gist/SanjayShetty01/85c377f5b2236713dbed111e11cee5d5/rg-enterprises-workbook.ipynb",
     source: "https://gist.github.com/SanjayShetty01/85c377f5b2236713dbed111e11cee5d5",
+  },
+  {
+    title: "Market Pulse",
+    description:
+      "Automated daily alert system that monitors Indian market indices for configurable threshold breaches and sends email notifications via GitHub Actions.",
+    tech: ["R", "quantmod", "GitHub Actions"],
+    category: "Tools",
+    demo: "https://github.com/SanjayShetty01/market-pulse/blob/main/README.md",
+    source: "https://github.com/SanjayShetty01/market-pulse",
   }
 ];
 
