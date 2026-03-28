@@ -14,7 +14,7 @@ const projects = [
   },
 
   {
-  title: "research-view — Market Research & Analysis",
+  title: "research-view — Economic and Financial Research",
   description:
     "A collection of data-driven research projects analyzing market behaviour and financial concepts, including Nifty drawdowns and SIP timing strategies.",
   tech: ["R", "Finance", "Backtesting", "Data Analysis"],
