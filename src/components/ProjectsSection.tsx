@@ -14,6 +14,16 @@ const projects = [
   },
 
   {
+  title: "research-view — Market Research & Analysis",
+  description:
+    "A collection of data-driven research projects analyzing market behaviour and financial concepts, including Nifty drawdowns and SIP timing strategies.",
+  tech: ["R", "Finance", "Backtesting", "Data Analysis"],
+  category: "Stats & ML",
+  demo: "https://sanjayshetty01.github.io/research-view/",
+  source: "https://github.com/SanjayShetty01/research-view",
+},
+
+  {
     title: "Lunexa — Arbitrage & Hedge Calculator",
     description:
       "Lunexa is a precision-focused betting calculator designed to help you identify and manage risk-free opportunities using real market odds.",
