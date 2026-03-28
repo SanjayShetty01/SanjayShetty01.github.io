@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const experience = [
   {
-    role: "Senior Data Associate",
+    role: "Quantitative Analyst",
     company: "Crisil",
     period: "Oct 2025 — Present",
     description: "Training & Induction at the moment",
