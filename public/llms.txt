@@ -16,7 +16,7 @@ R, AWS, SQL, Python, Rust, Shiny, Data Analysis, Credit Risk, Machine Learning, 
 
 ## Experience
 
-### Senior Data Associate — Crisil (Oct 2025 – Present)
+### Quantitative Analyst — Crisil (Oct 2025 – Present)
 Training & Induction at the moment.
 
 ### Consultant, R Shiny — EY India (Jul 2024 – Oct 2025)
