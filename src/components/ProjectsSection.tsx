@@ -96,8 +96,8 @@ const projects = [
       "A full implementation of the India VIX calculation methodology from scratch in R, replicating NSE’s volatility index using option chain data, cubic spline interpolation, and term-structure weighting across near and next month contracts.",
     tech: ["R", "Options Data", "Volatility Modeling", "Financial Engineering"],
     category: "Stats & ML",
-    demo: "https://gist.github.com/SanjayShetty01/01e700b6c1fadf0e76c5b7361c14d7d2",
-    source: "https://gist.githubusercontent.com/SanjayShetty01/01e700b6c1fadf0e76c5b7361c14d7d2/raw/a0081171037dfa84b47790932969f9588a2f9363/IndiaVix.md"
+    demo: "https://github.com/SanjayShetty01/IndiaVIXinR/blob/main/README.md",
+    source: "https://github.com/SanjayShetty01/IndiaVIXinR"
   },
 
   {
