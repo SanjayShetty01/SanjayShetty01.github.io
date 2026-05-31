@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github, Package, TrendingUp } from "lucide-react";
 
@@ -134,7 +134,17 @@ const categories = ["All", ...Array.from(new Set(projects.map((p) => p.category)
 
 const ProjectsSection = () => {
   const [filter, setFilter] = useState("All");
-  const cranStats = { total: "10,000+", monthly: "500+" };
+  const [cranStats, setCranStats] = useState<{ total: number | null; monthly: number | null }>({
+    total: null,
+    monthly: null,
+  });
+
+  useEffect(() => {
+    fetch("/cran-stats.json")
+      .then((r) => r.json())
+      .then((data) => setCranStats({ total: data.total, monthly: data.monthly }))
+      .catch(() => setCranStats({ total: 10000, monthly: 500 }));
+  }, []);
 
 
   const filtered = filter === "All" ? projects : projects.filter((p) => p.category === filter);
@@ -190,11 +200,11 @@ const ProjectsSection = () => {
                 <div className="flex items-center gap-6 py-3 border-t border-border mt-2">
                   <span className="flex items-center gap-2 text-sm text-foreground">
                     <Package size={16} className="text-primary" />
-                    <span className="font-medium underline">{cranStats.total}</span> downloads
+                    <span className="font-medium underline">{cranStats.total.toLocaleString()}</span> downloads
                   </span>
                   <span className="flex items-center gap-2 text-sm text-foreground">
                     <TrendingUp size={16} className="text-primary" />
-                    <span className="font-medium">{cranStats.monthly} / month</span>
+                    <span className="font-medium">{cranStats.monthly.toLocaleString()} / month</span>
                   </span>
                 </div>
               )}
