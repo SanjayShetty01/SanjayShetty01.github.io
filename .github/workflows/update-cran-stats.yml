@@ -21,6 +21,18 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
+          git checkout -b cran-stats-update
           git add public/cran-stats.json
           git diff --staged --quiet || git commit -m "chore: update CRAN stats"
-          git push
+          git push origin cran-stats-update --force
+
+      - name: Create PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create \
+            --title "chore: update CRAN stats" \
+            --body "Automated CRAN download stats update" \
+            --base main \
+            --head cran-stats-update \
+            || echo "PR already exists"
