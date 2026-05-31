@@ -1,0 +1,26 @@
+name: Update CRAN Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch CRAN stats
+        run: |
+          TOTAL=$(curl -s "https://cranlogs.r-pkg.org/downloads/total/2000-01-01:2099-01-01/RCognito" | jq '.downloads')
+          MONTHLY=$(curl -s "https://cranlogs.r-pkg.org/downloads/total/last-month/RCognito" | jq '.downloads')
+          echo "{\"total\": $TOTAL, \"monthly\": $MONTHLY}" > public/cran-stats.json
+
+      - name: Commit stats
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add public/cran-stats.json
+          git diff --staged --quiet || git commit -m "chore: update CRAN stats"
+          git pus
