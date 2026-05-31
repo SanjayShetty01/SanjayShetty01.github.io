@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, Package, TrendingUp } from "lucide-react";
 
 const projects = [
   {
@@ -11,17 +11,18 @@ const projects = [
     category: "Tools",
     demo: "https://cran.r-project.org/web/packages/RCognito/index.html",
     source: "https://github.com/SanjayShetty01/RCognito",
+    showDownloads: true
   },
 
   {
-  title: "research-view — Economic and Financial Research",
-  description:
-    "A collection of data-driven research projects analyzing market behaviour and financial concepts, including Nifty drawdowns and SIP timing strategies.",
-  tech: ["R", "Finance", "Backtesting", "Data Analysis"],
-  category: "Stats & ML",
-  demo: "https://sanjayshetty01.github.io/research-view/",
-  source: "https://github.com/SanjayShetty01/research-view",
-},
+    title: "research-view — Economic and Financial Research",
+    description:
+      "A collection of data-driven research projects analyzing market behaviour and financial concepts, including Nifty drawdowns and SIP timing strategies.",
+    tech: ["R", "Finance", "Backtesting", "Data Analysis"],
+    category: "Stats & ML",
+    demo: "https://sanjayshetty01.github.io/research-view/",
+    source: "https://github.com/SanjayShetty01/research-view",
+  },
 
   {
     title: "Lunexa — Arbitrage & Hedge Calculator",
@@ -133,6 +134,8 @@ const categories = ["All", ...Array.from(new Set(projects.map((p) => p.category)
 
 const ProjectsSection = () => {
   const [filter, setFilter] = useState("All");
+  const cranStats = { total: "10,000+", monthly: "500+" };
+
 
   const filtered = filter === "All" ? projects : projects.filter((p) => p.category === filter);
 
@@ -183,6 +186,18 @@ const ProjectsSection = () => {
                   </Badge>
                 ))}
               </div>
+              {project.showDownloads && cranStats.total && (
+                <div className="flex items-center gap-6 py-3 border-t border-border mt-2">
+                  <span className="flex items-center gap-2 text-sm text-foreground">
+                    <Package size={16} className="text-primary" />
+                    <span className="font-medium underline">{cranStats.total}</span> downloads
+                  </span>
+                  <span className="flex items-center gap-2 text-sm text-foreground">
+                    <TrendingUp size={16} className="text-primary" />
+                    <span className="font-medium">{cranStats.monthly} / month</span>
+                  </span>
+                </div>
+              )}
               <div className="flex gap-4">
                 <a
                   href={project.demo}
