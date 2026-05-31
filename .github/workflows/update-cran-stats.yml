@@ -13,8 +13,8 @@ jobs:
 
       - name: Fetch CRAN stats
         run: |
-          TOTAL=$(curl -s "https://cranlogs.r-pkg.org/downloads/total/2000-01-01:2099-01-01/RCognito" | jq '.downloads')
-          MONTHLY=$(curl -s "https://cranlogs.r-pkg.org/downloads/total/last-month/RCognito" | jq '.downloads')
+          TOTAL=$(curl -s "https://cranlogs.r-pkg.org/downloads/total/2000-01-01:2099-01-01/RCognito" | jq '.[0].downloads')
+          MONTHLY=$(curl -s "https://cranlogs.r-pkg.org/downloads/total/last-month/RCognito" | jq '.[0].downloads')
           echo "{\"total\": $TOTAL, \"monthly\": $MONTHLY}" > public/cran-stats.json
 
       - name: Commit stats
