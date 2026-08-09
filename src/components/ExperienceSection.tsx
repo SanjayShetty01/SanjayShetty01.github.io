@@ -6,7 +6,7 @@ const experience = [
     role: "Quantitative Analyst",
     company: "Crisil",
     period: "Oct 2025 — Present",
-    description: "Training & Induction at the moment",
+    description: "Building multiple asset model evaluation frameworks (R, Python, MATLAB) with parallel replicas to catch drift and methodology divergence pre-production. Own testing infrastructure for a production R Shiny app (golem, R6, Shiny modules), achieving 100% coverage with advanced mocking across API, DB, and reactive contexts. Sole engineer migrating legacy Excel/Power BI reporting to Shiny/Dash, eliminating Power Automate licensing and Excel's compute ceiling.",
   },
   {
     role: "Consultant - R Shiny",
