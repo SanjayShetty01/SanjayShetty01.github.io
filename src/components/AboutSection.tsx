@@ -19,7 +19,9 @@ const AboutSection = () => {
           mainly in credit risk, climate risk, regulatory stress testing, and
           pharma analytics. I work on AWS-based deployments and integrate applications
           using React, Flask, and R Plumber, using Docker and PostgreSQL in my workflow.
-          Currently exploring Rust to expand my development skills.
+          Regularly entrusted with time-critical, requirement-heavy tasks. The
+          go-to person when deadlines are tight and the scope is large. Currently
+          exploring Rust to expand my development skills.
         </p>
 
         <div className="flex flex-wrap gap-3 mb-10">

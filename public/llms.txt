@@ -1,10 +1,15 @@
+---
+url: https://SanjayShetty01.github.io
+last-updated: 2026-08-30
+---
+
 # Sanjaya J. Shetty
 
 > R & AWS Developer — Building scalable analytics and modelling systems for finance and risk.
 
 ## About
 
-I build analytics and modelling applications using R and R Shiny, mainly in credit risk, climate risk, regulatory stress testing, and pharma analytics. I work on AWS-based deployments and integrate applications using React, Flask, and R Plumber, using Docker and PostgreSQL in my workflow. Currently exploring Rust to expand my development skills.
+I build analytics and modelling applications using R and R Shiny, mainly in credit risk, climate risk, regulatory stress testing, and pharma analytics. I work on AWS-based deployments and integrate applications using React, Flask, and R Plumber, using Docker and PostgreSQL in my workflow. Regularly entrusted with time-critical, requirement-heavy tasks. The go-to person when deadlines are tight and the scope is large. Currently exploring Rust to expand my development skills.
 
 - Location: India
 - Open to opportunities
@@ -12,21 +17,24 @@ I build analytics and modelling applications using R and R Shiny, mainly in cred
 
 ## Skills
 
-R, AWS, SQL, Python, Rust, Shiny, Data Analysis, Credit Risk, Machine Learning, Git
+- Languages: R, Python, SQL, Rust
+- Frameworks: Shiny, React, Flask, R Plumber
+- Infrastructure: AWS, Docker, PostgreSQL, Git
+- Domains: Credit Risk, Climate Risk, Pharma Analytics, Machine Learning, Data Analysis
 
 ## Experience
 
 ### Quantitative Analyst — Crisil (Oct 2025 – Present)
-Training & Induction at the moment.
+Building multiple asset model evaluation frameworks (R, Python, MATLAB) with parallel replicas to catch drift and methodology divergence pre-production. Own testing infrastructure for a production R Shiny app (golem, R6, Shiny modules), achieving 100% coverage with advanced mocking across API, DB, and reactive contexts. Sole engineer migrating legacy Excel/Power BI reporting to Shiny/Dash, eliminating Power Automate licensing and Excel's compute ceiling.
 
 ### Consultant, R Shiny — EY India (Jul 2024 – Oct 2025)
 Developed and deployed credit risk systems using R Shiny, optimized R workflows, containerized applications with Docker, and integrated React-based frontends for scalable performance.
 
 ### Senior Analyst, R Shiny — DataZymes (Jan 2023 – Jun 2024)
-Built and scaled Pharma Analytics systems using R Shiny and Plumber APIs, significantly improving performance and efficiency. Led AWS integration with modern web stacks, introduced Git-based workflows, and implemented modular architecture standards.
+Built and scaled Pharma Analytics systems using R Shiny and Plumber APIs, significantly improving performance and efficiency. Led AWS integration with modern web stacks, introduced Git-based workflows, and implemented modular architecture standards for maintainable development.
 
 ### Data Analyst — Cointab (Aug 2022 – Dec 2022)
-Designed and implemented business logic for automated reconciliations using proprietary in-house systems, adapting solutions to client requirements.
+Designed and implemented business logic for automated reconciliations using proprietary in-house systems, adapting solutions to client requirements and presenting outcomes to stakeholders.
 
 ### Economic Research Intern — FKCCI, Bangalore (Feb 2020 – May 2020)
 Conducted economic research and authored reports on agricultural reforms (APMC), COVID-19's socioeconomic impact, and state budget analysis for Karnataka.
@@ -43,6 +51,12 @@ An R package that simplifies integration with AWS Cognito services, enabling sec
 - Source: https://github.com/SanjayShetty01/RCognito
 - Tech: R, AWS, R Package
 
+### research-view — Economic and Financial Research
+A collection of data-driven research projects analyzing market behaviour and financial concepts, including Nifty drawdowns and SIP timing strategies.
+- Demo: https://sanjayshetty01.github.io/research-view/
+- Source: https://github.com/SanjayShetty01/research-view
+- Tech: R, Finance, Backtesting, Data Analysis
+
 ### Lunexa — Arbitrage & Hedge Calculator
 A precision-focused betting calculator designed to help identify and manage risk-free opportunities using real market odds.
 - Demo: https://sanjayshetty01.shinyapps.io/Lunexa/
@@ -50,13 +64,13 @@ A precision-focused betting calculator designed to help identify and manage risk
 - Tech: R, R Shiny
 
 ### implied
-A Rust-based CLI tool that converts different betting odds formats into implied probabilities.
+A Rust-based CLI tool that converts different betting odds formats into implied probabilities, providing actionable insights to help bettors make informed decisions based on market odds.
 - Releases: https://github.com/SanjayShetty01/implied/releases
 - Source: https://github.com/SanjayShetty01/implied
 - Tech: Rust, CLI
 
 ### capture_text — Screen Text Extraction Tool
-A cross-platform command-line utility for extracting text from anywhere on the screen using OCR.
+A cross-platform command-line utility for extracting text from anywhere on the screen, inspired by PowerToys' Text Extractor and designed for simplicity and accuracy.
 - Releases: https://github.com/SanjayShetty01/capture_text/releases/tag/v0.1.1
 - Source: https://github.com/SanjayShetty01/capture_text
 - Tech: Rust, Screen OCR, CLI
@@ -68,38 +82,46 @@ An interactive R Shiny application providing F1 driver and constructor rankings 
 - Tech: R, Shiny, GitHub Actions, SQLite, Prompt-Engineered
 
 ### Specie — Discord Game Insights Dashboard
-An interactive R Shiny application providing income analysis and performance insights for the Evolution Farm Discord game.
+An interactive R Shiny application providing income analysis and performance insights for the Evolution Farm Discord game, enabling users to simulate earnings and optimize in-game strategies.
 - Demo: https://sanjayshetty01.shinyapps.io/Specie/
 - Source: https://github.com/SanjayShetty01/Specie
 - Tech: R, Shiny, GitHub Actions
 
 ### Data Visualization Repo
-An R project focused on strengthening data visualization skills using ggplot2.
+An R project focused on strengthening data visualization skills using ggplot2, featuring a suite of exploratory plots and visual approaches to communicate complex data effectively.
 - Demo: https://github.com/SanjayShetty01/Data-Visualization/blob/main/README.md
 - Source: https://github.com/SanjayShetty01/Data-Visualization
 - Tech: R, Shiny, ggplot2
 
 ### NIFTY 50 Open Price Forecasting
-An integrated forecasting project leveraging news sentiment, historical data, and ML models to estimate next-day NIFTY 50 opening prices.
+An integrated forecasting project that leverages news sentiment, historical index data, and machine learning models to estimate next-day opening prices for the NIFTY 50 benchmark.
 - Demo: https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#introduction
 - Source: https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50
 - Tech: Python, ML, Sentiment Analysis, Time Series, AWS
 
 ### Implementing India VIX in R
-A full implementation of the India VIX calculation methodology from scratch in R.
-- Demo: https://gist.github.com/SanjayShetty01/01e700b6c1fadf0e76c5b7361c14d7d2
+A full implementation of the India VIX calculation methodology from scratch in R, replicating NSE's volatility index using option chain data, cubic spline interpolation, and term-structure weighting across near and next month contracts.
+- Demo: https://github.com/SanjayShetty01/IndiaVIXinR/blob/main/README.md
+- Source: https://github.com/SanjayShetty01/IndiaVIXinR
 - Tech: R, Options Data, Volatility Modeling, Financial Engineering
 
 ### Payoff vs Probability — Monte Carlo Simulation
-A statistical simulation exploring why payoff structure matters more than raw probability in decision-making.
+A statistical simulation exploring why payoff structure matters more than raw probability in decision-making. Using Monte Carlo methods in R, the project models repeated betting outcomes to demonstrate how asymmetric losses dominate long-run results despite high win probabilities.
 - Demo: https://gist.github.com/SanjayShetty01/927f0a0cf0bfe479ebf1f28240cc6331
+- Source: https://gist.githubusercontent.com/SanjayShetty01/927f0a0cf0bfe479ebf1f28240cc6331/raw/2e84cade72988cf27a64df95f6a05c6bec4b6235/PayoffVsProbability.md
 - Tech: R, Monte Carlo Simulation, Probability, Statistics
 
 ### Intraday VWAP Strategy — Bank Nifty Backtest
-A rule-based intraday trading strategy backtested on Bank Nifty using VWAP breakout signals.
+A rule-based intraday trading strategy backtested on Bank Nifty, implementing VWAP breakout signals, tick-level stop-loss control, and session-based position management within defined trading hours (9:30–15:15).
 - Demo: https://colab.research.google.com/gist/SanjayShetty01/85c377f5b2236713dbed111e11cee5d5/rg-enterprises-workbook.ipynb
 - Source: https://gist.github.com/SanjayShetty01/85c377f5b2236713dbed111e11cee5d5
 - Tech: Python, Quant Strategy, Backtesting, Market Data
+
+### Market Pulse
+Automated daily alert system that monitors Indian market indices for configurable threshold breaches and sends email notifications via GitHub Actions.
+- Demo: https://github.com/SanjayShetty01/market-pulse/blob/main/README.md
+- Source: https://github.com/SanjayShetty01/market-pulse
+- Tech: R, quantmod, GitHub Actions
 
 ## Links
 
