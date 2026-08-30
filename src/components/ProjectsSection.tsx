@@ -200,7 +200,7 @@ const ProjectsSection = () => {
                 <div className="flex items-center gap-6 py-3 border-t border-border mt-2">
                   <span className="flex items-center gap-2 text-sm text-foreground">
                     <Package size={16} className="text-primary" />
-                    <span className="font-medium underline">{cranStats.total.toLocaleString()}</span> downloads
+                    <span className="font-medium">{cranStats.total.toLocaleString()}</span> downloads
                   </span>
                   <span className="flex items-center gap-2 text-sm text-foreground">
                     <TrendingUp size={16} className="text-primary" />
