@@ -4,7 +4,7 @@ import { ExternalLink, Github, Package, TrendingUp } from "lucide-react";
 
 const projects = [
   {
-    title: "RCognito — AWS Cognito Wrapper for R",
+    title: "RCognito: AWS Cognito Wrapper for R",
     description:
       "An R package that simplifies integration with AWS Cognito services, enabling secure authentication and user pool management directly from R applications.",
     tech: ["R", "AWS", "R Package"],
@@ -15,7 +15,7 @@ const projects = [
   },
 
   {
-    title: "research-view — Economic and Financial Research",
+    title: "research-view: Economic and Financial Research",
     description:
       "A collection of data-driven research projects analyzing market behaviour and financial concepts, including Nifty drawdowns and SIP timing strategies.",
     tech: ["R", "Finance", "Backtesting", "Data Analysis"],
@@ -25,7 +25,7 @@ const projects = [
   },
 
   {
-    title: "Lunexa — Arbitrage & Hedge Calculator",
+    title: "Lunexa: Arbitrage & Hedge Calculator",
     description:
       "Lunexa is a precision-focused betting calculator designed to help you identify and manage risk-free opportunities using real market odds.",
     tech: ["R", "R Shiny"],
@@ -45,7 +45,7 @@ const projects = [
   },
 
   {
-    title: "capture_text — Screen Text Extraction Tool",
+    title: "capture_text: Screen Text Extraction Tool",
     description:
       "A cross-platform command-line utility for extracting text from anywhere on the screen, inspired by PowerToys’ Text Extractor and designed for simplicity and accuracy.",
     tech: ["Rust", "Screen OCR", "CLI"],
@@ -102,7 +102,7 @@ const projects = [
   },
 
   {
-    title: "Payoff vs Probability — Monte Carlo Simulation",
+    title: "Payoff vs Probability: Monte Carlo Simulation",
     description:
       "A statistical simulation exploring why payoff structure matters more than raw probability in decision-making. Using Monte Carlo methods in R, the project models repeated betting outcomes to demonstrate how asymmetric losses dominate long-run results despite high win probabilities.",
     tech: ["R", "Monte Carlo Simulation", "Probability", "Statistics"],
@@ -111,7 +111,7 @@ const projects = [
     source: "https://gist.githubusercontent.com/SanjayShetty01/927f0a0cf0bfe479ebf1f28240cc6331/raw/2e84cade72988cf27a64df95f6a05c6bec4b6235/PayoffVsProbability.md",
   },
   {
-    title: "Intraday VWAP Strategy — Bank Nifty Backtest",
+    title: "Intraday VWAP Strategy: Bank Nifty Backtest",
     description:
       "A rule-based intraday trading strategy backtested on Bank Nifty, implementing VWAP breakout signals, tick-level stop-loss control, and session-based position management within defined trading hours (9:30–15:15).",
     tech: ["Python", "Quant Strategy", "Backtesting", "Market Data"],
