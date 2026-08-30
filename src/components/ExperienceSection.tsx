@@ -5,33 +5,33 @@ const experience = [
   {
     role: "Quantitative Analyst",
     company: "Crisil",
-    period: "Oct 2025 — Present",
+    period: "Oct 2025 - Present",
     description: "Training & Induction at the moment",
   },
   {
     role: "Consultant - R Shiny",
     company: "EY India",
-    period: "Jul 2024 — Oct 2025",
+    period: "Jul 2024 - Oct 2025",
     description: "Developed and deployed credit risk systems using R Shiny, optimized R workflows, containerized applications with Docker, and integrated React-based frontends for scalable performance.",
   },
   {
     role: "Senior Analyst - R Shiny",
     company: "DataZymes",
-    period: "Jan 2023 — Jun 2024",
+    period: "Jan 2023 - Jun 2024",
     description: "Built and scaled Pharma Analytics systems using R Shiny and Plumber APIs, significantly improving performance and efficiency. Led AWS integration with modern web stacks, introduced Git-based workflows, and implemented modular architecture standards for maintainable development.",
   },
 
   {
     role: "Data Analyst",
     company: "Cointab",
-    period: "Aug 2022 — Dec 2022",
+    period: "Aug 2022 - Dec 2022",
     description: "Designed and implemented business logic for automated reconciliations using proprietary in-house systems, adapting solutions to client requirements and presenting outcomes to stakeholders.",
   },
 
   {
     role: "Economic Research Intern",
     company: "FKCCI, Bangalore",
-    period: "Feb 2020 — May 2020",
+    period: "Feb 2020 - May 2020",
     description: "Conducted economic research and authored reports on agricultural reforms (APMC), COVID-19's socioeconomic impact, and state budget analysis for Karnataka.",
   },
 
@@ -41,7 +41,7 @@ const education = [
   {
     degree: "B.E. in Chemical Engineering",
     school: "B.M.S. College of Engineering, Bangalore",
-    period: "2016 — 2020",
+    period: "2016 - 2020",
   },
 ];
 
