@@ -55,7 +55,7 @@ const projects = [
   },
 
   {
-    title: "Stint – F1 Ranking Dashboard",
+    title: "Stint: F1 Ranking Dashboard",
     description:
       "An interactive R Shiny application providing F1 driver and constructor rankings and performance insights.",
     tech: ["R", "Shiny", "Github Actions", "SQLite", "Prompt-Engineered"],
@@ -65,7 +65,7 @@ const projects = [
   },
 
   {
-    title: "Specie – Discord Game Insights Dashboard",
+    title: "Specie: Discord Game Insights Dashboard",
     description:
       "An interactive R Shiny application providing income analysis and performance insights for the Evolution Farm Discord game, enabling users to simulate earnings and optimize in-game strategies.",
     tech: ["R", "Shiny", "Github Actions"],
